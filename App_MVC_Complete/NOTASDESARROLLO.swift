@@ -25,6 +25,16 @@ SIEMPRE QUE SE CREA UN PROYECTO EN XCODE (MVC DELEGADO NOTIFICACIONES KVO)
 REY MVC
 1. Modelo :-> El objeto que contiene los datos de la aplicación y define como manipularlos
 
+2. Vista :-> Los objetos que están a cargo de la representación visual del modelo y de los controles con los que el usuario puede interactuar (ICOAlbumView)
+
+3. Controlador :-> Clase mediadora que coordina todo el trabajo. Accede a los datos del modelo y los muestra de manera sincronizada. Escucha eventos y manipula los datos según sea necesario. (ViewController)
+
+
+COMO USAR EL PATRÓN MVC
+
+1. Patrón Singleton
+-> Es el que va a dar sentido al recurso tanto local como remoto
+-> El patrón Singleton garantiza que sólo exista una instancia de la clase determinada y por lo general utiliza una carga lenta.
 
 
 
