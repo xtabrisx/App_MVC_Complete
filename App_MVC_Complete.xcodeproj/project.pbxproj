@@ -18,6 +18,7 @@
 		092744E41C5B61D60084596A /* ICOAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092744E31C5B61D60084596A /* ICOAlbumView.swift */; };
 		092744E81C5B72FA0084596A /* ICOLibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092744E71C5B72FA0084596A /* ICOLibraryAPI.swift */; };
 		092744EA1C5B74CB0084596A /* ICOPersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092744E91C5B74CB0084596A /* ICOPersistencyManager.swift */; };
+		09D70E8B1C61EE2B0026408C /* ICOHorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D70E8A1C61EE2B0026408C /* ICOHorizontalScroller.swift */; };
 		0A6B08AD1C5F4C0A00C9F861 /* ICOHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B08AC1C5F4C0A00C9F861 /* ICOHTTPClient.swift */; };
 		0A6B08AF1C5F5B2400C9F861 /* ICOExtensionAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B08AE1C5F5B2400C9F861 /* ICOExtensionAlbumModel.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		092744E31C5B61D60084596A /* ICOAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOAlbumView.swift; sourceTree = "<group>"; };
 		092744E71C5B72FA0084596A /* ICOLibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOLibraryAPI.swift; sourceTree = "<group>"; };
 		092744E91C5B74CB0084596A /* ICOPersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOPersistencyManager.swift; sourceTree = "<group>"; };
+		09D70E8A1C61EE2B0026408C /* ICOHorizontalScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ICOHorizontalScroller.swift; path = ../ICOHorizontalScroller.swift; sourceTree = "<group>"; };
 		0A6B08AC1C5F4C0A00C9F861 /* ICOHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOHTTPClient.swift; sourceTree = "<group>"; };
 		0A6B08AE1C5F5B2400C9F861 /* ICOExtensionAlbumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOExtensionAlbumModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 		092744E51C5B6E460084596A /* VIEW */ = {
 			isa = PBXGroup;
 			children = (
+				09D70E8A1C61EE2B0026408C /* ICOHorizontalScroller.swift */,
 				092744E31C5B61D60084596A /* ICOAlbumView.swift */,
 			);
 			name = VIEW;
@@ -199,6 +202,7 @@
 				092744C91C5B58FA0084596A /* AppDelegate.swift in Sources */,
 				0A6B08AD1C5F4C0A00C9F861 /* ICOHTTPClient.swift in Sources */,
 				092744EA1C5B74CB0084596A /* ICOPersistencyManager.swift in Sources */,
+				09D70E8B1C61EE2B0026408C /* ICOHorizontalScroller.swift in Sources */,
 				092744E01C5B5DA10084596A /* NOTASDESARROLLO.swift in Sources */,
 				092744DE1C5B5D650084596A /* ICOAlbumModel.swift in Sources */,
 			);
